@@ -10,3 +10,12 @@ main{
     background-color: variable.$main_bg;
     padding: 1rem;
 }
+
+#about p{
+    @include variable.para-style(18px, left);
+    margin: 10px;
+}
+#education p{
+    @include variable.para-style(16px, justify);
+    margin: 10px;
+}
